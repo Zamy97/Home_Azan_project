@@ -48,7 +48,7 @@ def addAzaanTime (strPrayerName, strPrayerTime, objCronTab, strCommand):
 
 system_cron = CronTab()
 system_cron = CronTab(user=True)
-system_cron = CronTab(user='root')
+system_cron = CronTab(user='zamy')
 
 strPlayAzaanMP3Command = 'omxplayer -o local btv_fojor_azan.mp3 > /dev/null 2>&1'
 # azan_audio = vlc.MediaPlayer("btv_fojor_azan.mp3")

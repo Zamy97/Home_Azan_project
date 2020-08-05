@@ -122,7 +122,7 @@ class PrayTimes():
         "highLats": 'NightMiddle'
     }
 
-    timeFormat = '24h'
+    timeFormat = '12h'
     timeSuffixes = ['am', 'pm']
     invalidTime = '-----'
 
@@ -440,6 +440,6 @@ if __name__ == "__main__":
 
     print('Prayer Times for today in Waterloo/Canada\n' + ('=' * 41))
     # times = prayTimes.getTimes(date.today(), (43, -80), -5);
-    times = prayTimes.getTimes(date.today(), (37.8702379, -122.2537304), -7);
+    times = prayTimes.getTimes(date.today(), (37.953690, -105.946298), -5);
     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:
         print(i + ': ' + times[i.lower()])
