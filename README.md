@@ -13,3 +13,4 @@
 9. [python working with crontab](https://stackoverflow.com/questions/31172723/python-working-with-crontab)
 10. [updated azan crontab job code](https://github.com/achaudhry/adhan/blob/master/updateAzaanTimers.py)
 11. [Playing audio in python](https://stackoverflow.com/questions/260738/play-audio-with-python)
+12. [The repo before it got updated](https://github.com/achaudhry/adhan/tree/6aeb1e0d48833849f28b79965dc08b40a57d7c82)
